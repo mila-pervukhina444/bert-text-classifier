@@ -1,0 +1,10 @@
+model = "google-bert/bert-base-uncased"
+train_file = "data/train.jsonl"
+valid_file = "data/valid.jsonl"
+output_dir = "outputs/bert-sentiment"
+epochs = 3
+batch_size = 4
+learning_rate = 0.00002
+max_length = 128
+seed = 42
+device = "auto"
